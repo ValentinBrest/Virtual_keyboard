@@ -27,7 +27,7 @@ h1 {
 h3 {
     color: rgb(142, 142, 142);
     text-align: center;
-    font-size: 16px; 
+    font-size: 16px;
 }
 
 textarea {
@@ -37,7 +37,7 @@ textarea {
     margin-bottom: 10px;
     height: 200px;
     resize: none;
-    transition: all .3s;
+    transition: all 0.3s;
     font-size: 22px;
     padding: 15px;
     border-radius: 15px;
@@ -47,7 +47,7 @@ textarea {
 }
 
 textarea:focus-visible {
-    outline: 2px solid rgb(0, 0, 0)
+    outline: 2px solid rgb(0, 0, 0);
 }
 
 .keyboard {
@@ -78,9 +78,9 @@ textarea:focus-visible {
     text-align: center;
     line-height: 40px;
     border-radius: 5px;
-    transition: all .3s;
+    transition: all 0.3s;
     cursor: pointer;
-    color:#eee;
+    color: #eee;
 }
 
 .keyboard__key:hover {
@@ -90,7 +90,7 @@ textarea:focus-visible {
 .active {
     background-color: rgb(2, 107, 8);
     outline: 1px solid #eee;
-}  
+}
 
 .backspace {
     width: 100px;
@@ -99,10 +99,12 @@ textarea:focus-visible {
 .tab {
     width: 60px;
 }
-.caps, .shift_left {
+.caps,
+.shift_left {
     width: 110px;
 }
-.enter, .shift_right {
+.enter,
+.shift_right {
     width: 96px;
 }
 .space {
